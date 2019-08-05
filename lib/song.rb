@@ -1,4 +1,4 @@
-class Song 
+class Song
 
   attr_accessor :name, :artist
 
@@ -17,8 +17,7 @@ class Song
     if self.artist.nil?
       nil
     else
-      self.artist.name
+      self.artist.name 
     end
   end
-
 end
